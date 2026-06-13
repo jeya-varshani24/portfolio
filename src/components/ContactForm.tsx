@@ -10,9 +10,9 @@ import { Send, CheckCircle2, AlertCircle, Mail, Linkedin, Github, FileText, XCir
 //    Set "To Email" in the template to: jeyavarshanijeyaraj24@gmail.com
 // 4. Copy your PUBLIC KEY from Account → API Keys
 // ───────────────────────────────────────────────────────────────────────────
-const EMAILJS_SERVICE_ID  = "service_portfolio";   // ← Replace with your Service ID
-const EMAILJS_TEMPLATE_ID = "template_contact";    // ← Replace with your Template ID
-const EMAILJS_PUBLIC_KEY  = "YOUR_PUBLIC_KEY";     // ← Replace with your Public Key
+const EMAILJS_SERVICE_ID  = "service_de7h9pw";    // ← Replace with your Service ID
+const EMAILJS_TEMPLATE_ID = "template_b1l70wr";   // ← Replace with your Template ID
+const EMAILJS_PUBLIC_KEY  = "2VcQXUwIG4nNeUH2s";  // ← Replace with your Public Key
 
 export default function ContactForm() {
   const formRef = useRef<HTMLFormElement>(null);
