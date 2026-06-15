@@ -73,33 +73,9 @@ export default function Navbar({ sections }: NavbarProps) {
           {/* Logo */}
           <button
             onClick={() => scrollToSection("home")}
-            className="inline-flex items-center gap-3 rounded-2xl px-3 py-2 transition-all duration-300 hover:bg-white/5"
+            className="font-poppins font-extrabold text-2xl tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent hover:opacity-90 transition-opacity"
           >
-            <span className="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-slate-900/90 ring-1 ring-white/10 shadow-[0_10px_30px_rgba(15,23,42,0.45)]">
-              <svg viewBox="0 0 48 48" className="h-8 w-8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <defs>
-                  <linearGradient id="logo-grad" x1="0" y1="0" x2="1" y2="1">
-                    <stop offset="0%" stopColor="#7c3aed" />
-                    <stop offset="100%" stopColor="#38bdf8" />
-                  </linearGradient>
-                </defs>
-                <rect x="4" y="4" width="40" height="40" rx="12" fill="url(#logo-grad)" />
-                <path
-                  d="M22 13L34 25H27L36 38L24 26H31L22 13Z"
-                  fill="#ffffff"
-                  opacity="0.95"
-                />
-                <path
-                  d="M18 16L29 28H22L31 42L19 30H26L18 16Z"
-                  fill="#ffffff"
-                  opacity="0.3"
-                />
-              </svg>
-            </span>
-            <span className="hidden sm:flex flex-col leading-tight">
-              <span className="text-base font-semibold text-white">Jeya Varshani</span>
-              <span className="text-[11px] uppercase tracking-[0.3em] text-slate-400">Software Engineer</span>
-            </span>
+            JV<span className="text-secondary">.</span>
           </button>
 
           {/* Desktop Links */}
